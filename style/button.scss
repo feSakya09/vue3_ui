@@ -1,0 +1,71 @@
+button {outline:none;}
+button:focus {outline:none;} /*IE、Chrome*/
+button::-moz-focus_inner {border-color:transparent;} /*Firefox*/
+.jy-btn {
+  /*width: 98px;*/
+  /*height: 48px;*/
+  /*background-color: darkseagreen;*/
+  color: #606266;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 12px 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  box-sizing: border-box;
+  transition: .1s;
+}
+.jy-btn__primary {
+  color: #ffffff;
+  background-color: #409eff;
+  border-color: #409eff;
+}
+.jy-btn__primary.is-plain {
+  color: #409eff;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+}
+.jy-btn__success {
+  color: #ffffff;
+  background-color: #67c23a;
+  border-color: #67c23a;
+}
+.jy-btn__success.is-plain {
+  color: #67c23a;
+  background: #f0f9eb;
+  border-color: #c2e7b0;
+}
+.jy-btn__warning {
+  color: #ffffff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+}
+.jy-btn__warning.is-plain {
+  color: #e6a23c;
+  background: #fdf6ec;
+  border-color: #f5dab1;
+}
+.jy-btn__info {
+  color: #ffffff;
+  background-color: #909399;
+  border-color: #909399;
+}
+.jy-btn__info.is-plain {
+  color: #909399;
+  border-color: #d3d4d6;
+  background-color: #f4f4f5;
+}
+.jy-btn__danger {
+  color: #ffffff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+}
+.jy-btn__danger.is-plain {
+  color: #f56c6c;
+  background: #fef0f0;
+  border-color: #fbc4c4;
+}
